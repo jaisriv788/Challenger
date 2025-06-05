@@ -47,12 +47,12 @@ react-challenges-playground/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/react-challenges-playground.git
+   git clone https://github.com/jaisriv788/Challenger.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd react-challenges-playground
+   cd Challenger
    ```
 
 3. Install dependencies:
@@ -62,14 +62,14 @@ react-challenges-playground/
 
 4. Start the development server:
    ```bash
-   npm start
+   npm run dev
    ```
 
 ---
 
 ## 💡 Usage
 
-- Access the site at `http://localhost:3000` after running `npm start`.
+- Access the site at `http://localhost:5173` after running `npm run dev`.
 - Explore different challenges and solutions in the `src/challenges/` directory.
 - Modify components or create new ones in the `src/components/` directory.
 
