@@ -24,9 +24,9 @@ react-challenges-playground/
 │   ├── components/ # Reusable React components
 │   ├── challenges/ # Challenge-specific code
 │   ├── assets/     # Images and other assets
-│   ├── styles/     # Global and module-based styles
-│   ├── App.js      # Root component
-│   └── index.js    # Entry point
+│   ├── index.css   # Global and Tailwind Import
+│   ├── App.jsx     # Root component
+│   └── index.jsx   # Entry point
 ├── package.json    # Project dependencies
 ├── README.md       # Project documentation
 └── .gitignore      # Ignored files and folders
