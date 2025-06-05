@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+body {
+  background-color: #ebede8;
+  color: #113930;
+}
+
+.parent {
+  position: relative;
+}
+
+.child {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.radial-gradient {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(ovel, #ebede8, transparent, #ebede8);
+}
+
+@layer utilities {
+  .bg-grid-pattern {
+    background-image: linear-gradient(
+        to right,
+        rgb(192, 192, 192) 1px,
+        transparent 1px
+      ),
+      linear-gradient(to bottom, rgb(192, 192, 192) 1px, transparent 1px);
+    background-size: 70px 70px;
+    position: relative;
+  }
+}
+
+.animate1 {
+  animation: bounce 1.54s infinite; /* Adjust the duration to 3 seconds */
+}
+
+.animate2 {
+  animation: bounce 3s infinite; /* Adjust the duration to 3 seconds */
+}
+
+.animate3 {
+  animation: bounce 1.8s infinite; /* Adjust the duration to 3 seconds */
+}
+
+.animate4 {
+  animation: bounce 2.4s infinite; /* Adjust the duration to 3 seconds */
+}
